@@ -310,7 +310,30 @@ void loop()
   { 
     return; 
   }
-  
+  // bt.print(mucnuoc); //send distance to MIT App value giá trị mức nước
+//bt.println(";");
+// bt.print(khach); //send distance to MIT App ON/OFF Giá trị cảm biến ánh sáng
+//bt.println(";");
+//        }
+//      {
+//            if(Incoming_value=='1BT')
+//            digitalWrite(AA,HIGH);  //Bật đèn
+//             else if(Incoming_value=='0BT')
+//             digitalWrite(AA,LOW);   //TẮT đèn
+//             if(Incoming_value==1DC')
+//            digitalWrite(BB,HIGH);  //Bật cánh quạt nước
+ //             else if(Incoming_value=='0BT')
+//             digitalWrite(BB,LOW);    //Tắt cánh quạt nước
+//             if(Incoming_value=1BN')
+//            digitalWrite(CC,HIGH);   //Bật bơm nước
+//             else if(Incoming_value=='0BN')
+//             digitalWrite(CC,LOW);    //Tắt bơm nước
+//             if(Incoming_value=1NH')
+//            digitalWrite(DD,HIGH);    //Chạy step +
+//             else if(Incoming_value==0NH')
+//             digitalWrite(DD,LOW);     //Chạy Step -
+ 
+//        }
   if ( ! mfrc522.PICC_ReadCardSerial()) 
   {  
     return;  
@@ -336,7 +359,719 @@ void loop()
   else if (UID[i] == ID3[i])
   {
     digitalWrite(led1, LOW);
-    Serial.println("Thẻ tắt đèn - ĐÈN OFF");
+   Serial.println("Thẻ tắt đèn - ĐÈN OFF");
+ // delay(50);
+    //digitalWrite(led1, HIGHT);
+  //  Serial.println("Thẻ tắt đèn - ĐÈN On");
+   // delay(50);
+   //digitalWrite(led1, LOW);
+  // Serial.println("Thẻ tắt đèn - ĐÈN OFF");
+  // delay(50);
+    //digitalWrite(led1, HIGHT);
+  //  Serial.println("Thẻ tắt đèn - ĐÈN On");
+   // delay(50);//digitalWrite(led1, LOW);
+  // Serial.println("Thẻ tắt đèn - ĐÈN OFF");
+  // delay(50);
+    //digitalWrite(led1, HIGHT);
+  //  Serial.println("Thẻ tắt đèn - ĐÈN On");
+   // delay(50);//digitalWrite(led1, LOW);
+  // Serial.println("Thẻ tắt đèn - ĐÈN OFF");
+  // delay(50);
+    //digitalWrite(led1, HIGHT);
+  //  Serial.println("Thẻ tắt đèn - ĐÈN On");
+   // delay(50);//digitalWrite(led1, LOW);
+  // Serial.println("Thẻ tắt đèn - ĐÈN OFF");
+  // delay(50);
+    //digitalWrite(led1, HIGHT);
+  //  Serial.println("Thẻ tắt đèn - ĐÈN On");
+   // delay(50);//digitalWrite(led1, LOW);
+  // Serial.println("Thẻ tắt đèn - ĐÈN OFF");
+  // delay(50);
+    //digitalWrite(led1, HIGHT);
+  //  Serial.println("Thẻ tắt đèn - ĐÈN On");
+   // delay(50);//digitalWrite(led1, LOW);
+  // Serial.println("Thẻ tắt đèn - ĐÈN OFF");
+  // delay(50);
+    //digitalWrite(led1, HIGHT);
+  //  Serial.println("Thẻ tắt đèn - ĐÈN On");
+   // delay(50);//digitalWrite(led1, LOW);
+  // Serial.println("Thẻ tắt đèn - ĐÈN OFF");
+  // delay(50);
+    //digitalWrite(led1, HIGHT);
+  //  Serial.println("Thẻ tắt đèn - ĐÈN On");
+   // delay(50);//digitalWrite(led1, LOW);
+  // Serial.println("Thẻ tắt đèn - ĐÈN OFF");
+  // delay(50);
+    //digitalWrite(led1, HIGHT);
+  //  Serial.println("Thẻ tắt đèn - ĐÈN On");
+   // delay(50);//digitalWrite(led1, LOW);
+  // Serial.println("Thẻ tắt đèn - ĐÈN OFF");
+  // delay(50);
+    //digitalWrite(led1, HIGHT);
+  //  Serial.println("Thẻ tắt đèn - ĐÈN On");
+   // delay(50);//digitalWrite(led1, LOW);
+  // Serial.println("Thẻ tắt đèn - ĐÈN OFF");
+  // delay(50);
+    //digitalWrite(led1, HIGHT);
+  //  Serial.println("Thẻ tắt đèn - ĐÈN On");
+   // delay(50);//digitalWrite(led1, LOW);
+  // Serial.println("Thẻ tắt đèn - ĐÈN OFF");
+  // delay(50);
+    //digitalWrite(led1, HIGHT);
+  //  Serial.println("Thẻ tắt đèn - ĐÈN On");
+   // delay(50);//digitalWrite(led1, LOW);
+  // Serial.println("Thẻ tắt đèn - ĐÈN OFF");
+  // delay(50);
+    //digitalWrite(led1, HIGHT);
+  //  Serial.println("Thẻ tắt đèn - ĐÈN On");
+   // delay(50);//digitalWrite(led1, LOW);
+  // Serial.println("Thẻ tắt đèn - ĐÈN OFF");
+  // delay(50);
+    //digitalWrite(led1, HIGHT);
+  //  Serial.println("Thẻ tắt đèn - ĐÈN On");
+   // delay(50);//digitalWrite(led1, LOW);
+  // Serial.println("Thẻ vtắt đèn - ĐÈN OFF");
+  // delay(50);// bt.print(mucnuoc); //send distance to MIT App value giá trị mức nước
+//bt.println(";");
+// bt.print(khach); //send distance to MIT App ON/OFF Giá trị cảm biến ánh sáng
+//bt.println(";");
+//        }
+//      {
+//            if(Incoming_value=='1BT')
+//            digitalWrite(AA,HIGH);  //Bật đèn
+//             else if(Incoming_value=='0BT')
+//             digitalWrite(AA,LOW);   //TẮT đèn
+//             if(Incoming_value==1DC')
+//            digitalWrite(BB,HIGH);  //Bật cánh quạt nước
+    //digitalWrite(led1, HIGHT);
+  //  Serial.println("Thẻ tắt đèn - ĐÈN On");
+   // delay(50);//digitalWrite(led1, LOW);
+  // Serial.println("Thẻ tắt đèn - ĐÈN OFF");
+  // delay(50);
+    //digitalWrite(led1, HIGHT);
+  //  Serial.println("Thẻ tắt đèn - ĐÈN On");
+   // delay(50);//digitalWrite(led1, LOW);
+  // Serial.println("Thẻ tắt đèn - ĐÈN OFF");
+  // delay(50);
+    //digitalWrite(led1, HIGHT);
+  //  Serial.println("Thẻ tắt đèn - ĐÈN On");
+   // delay(50);//digitalWrite(led1, LOW);
+  // Serial.println("Thẻ tắt đèn - ĐÈN OFF");
+  // delay(50);
+    //digitalWrite(led1, HIGHT);
+  //  Serial.println("Thẻ tắt đèn - ĐÈN On");
+   // delay(50);//digitalWrite(led1, LOW);
+  // Serial.println("Thẻ tắt đèn - ĐÈN OFF");
+  // delay(50);
+    //digitalWrite(led1, HIGHT);
+  //  Serial.println("Thẻ tắt đèn - ĐÈN On");
+   // delay(50);//digitalWrite(led1, LOW);
+  // Serial.println("Thẻ tắt đèn - ĐÈN OFF");
+  // delay(50);
+    //digitalWrite(led1, HIGHT);
+  //  Serial.println("Thẻ tắt đèn - ĐÈN On");
+   // delay(50);//digitalWrite(led1, LOW);
+  // Serial.println("Thẻ tắt đèn - ĐÈN OFF");
+  // delay(50);
+    //digitalWrite(led1, HIGHT);
+  //  Serial.println("Thẻ tắt đèn - ĐÈN On");
+   // delay(50);//digitalWrite(led1, LOW);
+  // Serial.println("Thẻ tắt đèn - ĐÈN OFF");
+  // delay(50);
+    //digitalWrite(led1, HIGHT);
+  //  Serial.println("Thẻ tắt đèn - ĐÈN On");
+   // delay(50);//digitalWrite(led1, LOW);
+  // Serial.println("Thẻ tắt đèn - ĐÈN OFF");
+  // delay(50);
+    //digitalWrite(led1, HIGHT);
+  //  Serial.println("Thẻ tắt đèn - ĐÈN On");
+   // delay(50);//digitalWrite(led1, LOW);
+  // Serial.println("Thẻ tắt đèn - ĐÈN OFF");
+  // delay(50);
+    //digitalWrite(led1, HIGHT);
+  //  Serial.println("Thẻ tắt đèn - ĐÈN On");
+   // delay(50);//digitalWrite(led1, LOW);
+  // Serial.println("Thẻ tắt đèn - ĐÈN OFF");
+  // delay(50);
+    //digitalWrite(led1, HIGHT);
+  //  Serial.println("Thẻ tắt đèn - ĐÈN On");
+   // delay(50);//digitalWrite(led1, LOW);
+  // Serial.println("Thẻ tắt đèn - ĐÈN OFF");
+  // delay(50);// bt.print(mucnuoc); //send distance to MIT App value giá trị mức nước
+//bt.println(";");
+// bt.print(khach); //send distance to MIT App ON/OFF Giá trị cảm biến ánh sáng
+//bt.println(";");
+//        }
+//      {
+//            if(Incoming_value=='1BT')
+//            digitalWrite(AA,HIGH);  //Bật đèn
+//             else if(Incoming_value=='0BT')
+//             digitalWrite(AA,LOW);   //TẮT đèn
+//             if(Incoming_value==1DC')
+//            digitalWrite(BB,HIGH);  //Bật cánh quạt nước
+    //digitalWrite(led1, HIGHT);
+  //  Serial.println("Thẻ tắt đèn - ĐÈN On");
+   // delay(50);//digitalWrite(led1, LOW);
+  // Serial.println("Thẻ tắt đèn - ĐÈN OFF");
+  // delay(50);
+    //digitalWrite(led1, HIGHT);
+  //  Serial.println("Thẻ tắt đèn - ĐÈN On");
+   // delay(50);//digitalWrite(led1, LOW);
+  // Serial.println("Thẻ tắt đèn - ĐÈN OFF");
+  // delay(50);
+    //digitalWrite(led1, HIGHT);
+  //  Serial.println("Thẻ tắt đèn - ĐÈN On");
+   // delay(50);//digitalWrite(led1, LOW);
+  // Serial.println("Thẻ tắt đèn - ĐÈN OFF");
+  // delay(50);
+    //digitalWrite(led1, HIGHT);
+  //  Serial.println("Thẻ tắt đèn - ĐÈN On");
+   // delay(50);//digitalWrite(led1, LOW);
+  // Serial.println("Thẻ tắt đèn - ĐÈN OFF");
+  // delay(50);
+    //digitalWrite(led1, HIGHT);
+  //  Serial.println("Thẻ tắt đèn - ĐÈN On");
+   // delay(50);//digitalWrite(led1, LOW);
+  // Serial.println("Thẻ tắt đèn - ĐÈN OFF");
+  // delay(50);
+    //digitalWrite(led1, HIGHT);
+  //  Serial.println("Thẻ tắt đèn - ĐÈN On");
+   // delay(50);//digitalWrite(led1, LOW);
+  // Serial.println("Thẻ tắt đèn - ĐÈN OFF");
+  // delay(50);// bt.print(mucnuoc); //send distance to MIT App value giá trị mức nước
+//bt.println(";");
+// bt.print(khach); //send distance to MIT App ON/OFF Giá trị cảm biến ánh sáng
+//bt.println(";");
+//        }
+//      {
+//            if(Incoming_value=='1BT')
+//            digitalWrite(AA,HIGH);  //Bật đèn
+//             else if(Incoming_value=='0BT')
+//             digitalWrite(AA,LOW);   //TẮT đèn
+//             if(Incoming_value==1DC')
+//            digitalWrite(BB,HIGH);  //Bật cánh quạt nước
+    //digitalWrite(led1, HIGHT);
+  //  Serial.println("Thẻ tắt đèn - ĐÈN On");
+   // delay(50);//digitalWrite(led1, LOW);
+  // Serial.println("Thẻ tắt đèn - ĐÈN OFF");
+  // delay(50);
+    //digitalWrite(led1, HIGHT);
+  //  Serial.println("Thẻ tắt đèn - ĐÈN On");
+   // delay(50);//digitalWrite(led1, LOW);
+  // Serial.println("Thẻ tắt đèn - ĐÈN OFF");
+  // delay(50);
+    //digitalWrite(led1, HIGHT);
+  //  Serial.println("Thẻ tắt đèn - ĐÈN On");
+   // delay(50);//digitalWrite(led1, LOW);
+  // Serial.println("Thẻ tắt đèn - ĐÈN OFF");
+  // delay(50);
+    //digitalWrite(led1, HIGHT);
+  //  Serial.println("Thẻ tắt đèn - ĐÈN On");
+   // delay(50);//digitalWrite(led1, LOW);
+  // Serial.println("Thẻ tắt đèn - ĐÈN OFF");
+  // delay(50);
+    //digitalWrite(led1, HIGHT);
+  //  Serial.println("Thẻ tắt đèn - ĐÈN On");
+   // delay(50);//digitalWrite(led1, LOW);
+  // Serial.println("Thẻ tắt đèn - ĐÈN OFF");
+  // delay(50);
+    //digitalWrite(led1, HIGHT);
+  //  Serial.println("Thẻ tắt đèn - ĐÈN On");
+   // delay(50);//digitalWrite(led1, LOW);
+  // Serial.println("Thẻ tắt đèn - ĐÈN OFF");
+  // delay(50);// bt.print(mucnuoc); //send distance to MIT App value giá trị mức nước
+//bt.println(";");
+// bt.print(khach); //send distance to MIT App ON/OFF Giá trị cảm biến ánh sáng
+//bt.println(";");
+//        }
+//      {
+//            if(Incoming_value=='1BT')
+//            digitalWrite(AA,HIGH);  //Bật đèn
+//             else if(Incoming_value=='0BT')
+//             digitalWrite(AA,LOW);   //TẮT đèn
+//             if(Incoming_value==1DC')
+//            digitalWrite(BB,HIGH);  //Bật cánh quạt nước
+    //digitalWrite(led1, HIGHT);
+  //  Serial.println("Thẻ tắt đèn - ĐÈN On");
+   // delay(50);//digitalWrite(led1, LOW);
+  // Serial.println("Thẻ tắt đèn - ĐÈN OFF");
+  // delay(50);
+    //digitalWrite(led1, HIGHT);
+  //  Serial.println("Thẻ tắt đèn - ĐÈN On");
+   // delay(50);//digitalWrite(led1, LOW);
+  // Serial.println("Thẻ tắt đèn - ĐÈN OFF");
+  // delay(50);
+    //digitalWrite(led1, HIGHT);
+  //  Serial.println("Thẻ tắt đèn - ĐÈN On");
+   // delay(50);//digitalWrite(led1, LOW);
+  // Serial.println("Thẻ tắt đèn - ĐÈN OFF");
+  // delay(50);
+    //digitalWrite(led1, HIGHT);
+  //  Serial.println("Thẻ tắt đèn - ĐÈN On");
+   // delay(50);//digitalWrite(led1, LOW);
+  // Serial.println("Thẻ tắt đèn - ĐÈN OFF");
+  // delay(50);
+    //digitalWrite(led1, HIGHT);
+  //  Serial.println("Thẻ tắt đèn - ĐÈN On");
+   // delay(50);//digitalWrite(led1, LOW);
+  // Serial.println("Thẻ tắt đèn - ĐÈN OFF");
+  // delay(50);// bt.print(mucnuoc); //send distance to MIT App value giá trị mức nước
+//bt.println(";");
+// bt.print(khach); //send distance to MIT App ON/OFF Giá trị cảm biến ánh sáng
+//bt.println(";");
+//        }
+//      {
+//            if(Incoming_value=='1BT')
+//            digitalWrite(AA,HIGH);  //Bật đèn
+//             else if(Incoming_value=='0BT')
+//             digitalWrite(AA,LOW);   //TẮT đèn
+//             if(Incoming_value==1DC')
+//            digitalWrite(BB,HIGH);  //Bật cánh quạt nước
+    //digitalWrite(led1, HIGHT);
+  //  Serial.println("Thẻ tắt đèn - ĐÈN On");
+   // delay(50);//digitalWrite(led1, LOW);
+  // Serial.println("Thẻ tắt đèn - ĐÈN OFF");
+  // delay(50);
+    //digitalWrite(led1, HIGHT);
+  //  Serial.println("Thẻ tắt đèn - ĐÈN On");
+   // delay(50);//digitalWrite(led1, LOW);
+  // Serial.println("Thẻ tắt đèn - ĐÈN OFF");
+  // delay(50);
+    //digitalWrite(led1, HIGHT);
+  //  Serial.println("Thẻ tắt đèn - ĐÈN On");
+   // delay(50);//digitalWrite(led1, LOW);
+  // Serial.println("Thẻ tắt đèn - ĐÈN OFF");
+  // delay(50);
+    //digitalWrite(led1, HIGHT);
+  //  Serial.println("Thẻ tắt đèn - ĐÈN On");
+   // delay(50);//digitalWrite(led1, LOW);
+  // Serial.println("Thẻ tắt đèn - ĐÈN OFF");
+  // delay(50);
+    //digitalWrite(led1, HIGHT);
+  //  Serial.println("Thẻ tắt đèn - ĐÈN On");
+   // delay(50);//digitalWrite(led1, LOW);
+  // Serial.println("Thẻ tắt đèn - ĐÈN OFF");
+  // delay(50);
+    //digitalWrite(led1, HIGHT);
+  //  Serial.println("Thẻ tắt đèn - ĐÈN On");
+   // delay(50);//digitalWrite(led1, LOW);
+  // Serial.println("Thẻ tắt đèn - ĐÈN OFF");
+  // delay(50);
+    //digitalWrite(led1, HIGHT);
+  //  Serial.println("Thẻ tắt đèn - ĐÈN On");
+   // delay(50);//digitalWrite(led1, LOW);
+  // Serial.println("Thẻ tắt đèn - ĐÈN OFF");
+  // delay(50);
+    //digitalWrite(led1, HIGHT);
+  //  Serial.println("Thẻ tắt đèn - ĐÈN On");
+   // delay(50);//digitalWrite(led1, LOW);
+  // Serial.println("Thẻ tắt đèn - ĐÈN OFF");
+  // delay(50);
+    //digitalWrite(led1, HIGHT);
+  //  Serial.println("Thẻ tắt đèn - ĐÈN On");
+   // delay(50);//digitalWrite(led1, LOW);
+  // Serial.println("Thẻ tắt đèn - ĐÈN OFF");
+  // delay(50);
+    //digitalWrite(led1, HIGHT);
+  //  Serial.println("Thẻ tắt đèn - ĐÈN On");
+   // delay(50);//digitalWrite(led1, LOW);
+  // Serial.println("Thẻ tắt đèn - ĐÈN OFF");
+  // delay(50);
+    //digitalWrite(led1, HIGHT);
+  //  Serial.println("Thẻ tắt đèn - ĐÈN On");
+   // delay(50);//digitalWrite(led1, LOW);
+  // Serial.println("Thẻ tắt đèn - ĐÈN OFF");
+  // delay(50);
+    //digitalWrite(led1, HIGHT);
+  //  Serial.println("Thẻ tắt đèn - ĐÈN On");
+   // delay(50);//digitalWrite(led1, LOW);
+  // Serial.println("Thẻ tắt đèn - ĐÈN OFF");
+  // delay(50);
+    //digitalWrite(led1, HIGHT);
+  //  Serial.println("Thẻ tắt đèn - ĐÈN On");
+   // delay(50);//digitalWrite(led1, LOW);
+  // Serial.println("Thẻ tắt đèn - ĐÈN OFF");
+  // delay(50);// bt.print(mucnuoc); //send distance to MIT App value giá trị mức nước
+//bt.println(";");
+// bt.print(khach); //send distance to MIT App ON/OFF Giá trị cảm biến ánh sáng
+//bt.println(";");
+//        }
+//      {
+//            if(Incoming_value=='1BT')
+//            digitalWrite(AA,HIGH);  //Bật đèn
+//             else if(Incoming_value=='0BT')
+//             digitalWrite(AA,LOW);   //TẮT đèn
+//             if(Incoming_value==1DC')
+//            digitalWrite(BB,HIGH);  //Bật cánh quạt nước
+    //digitalWrite(led1, HIGHT);
+  //  Serial.println("Thẻ tắt đèn - ĐÈN On");
+   // delay(50);//digitalWrite(led1, LOW);
+  // Serial.println("Thẻ tắt đèn - ĐÈN OFF");
+  // delay(50);
+    //digitalWrite(led1, HIGHT);
+  //  Serial.println("Thẻ tắt đèn - ĐÈN On");
+   // delay(50);//digitalWrite(led1, LOW);
+  // Serial.println("Thẻ tắt đèn - ĐÈN OFF");
+  // delay(50);
+    //digitalWrite(led1, HIGHT);
+  //  Serial.println("Thẻ tắt đèn - ĐÈN On");
+   // delay(50);//digitalWrite(led1, LOW);
+  // Serial.println("Thẻ tắt đèn - ĐÈN OFF");
+  // delay(50);
+    //digitalWrite(led1, HIGHT);
+  //  Serial.println("Thẻ tắt đèn - ĐÈN On");
+   // delay(50);//digitalWrite(led1, LOW);
+  // Serial.println("Thẻ tắt đèn - ĐÈN OFF");
+  // delay(50);
+    //digitalWrite(led1, HIGHT);
+  //  Serial.println("Thẻ tắt đèn - ĐÈN On");
+   // delay(50);//digitalWrite(led1, LOW);
+  // Serial.println("Thẻ tắt đèn - ĐÈN OFF");
+  // delay(50);
+    //digitalWrite(led1, HIGHT);
+  //  Serial.println("Thẻ tắt đèn - ĐÈN On");
+   // delay(50);//digitalWrite(led1, LOW);
+  // Serial.println("Thẻ tắt đèn - ĐÈN OFF");
+  // delay(50);
+    //digitalWrite(led1, HIGHT);
+  //  Serial.println("Thẻ tắt đèn - ĐÈN On");
+   // delay(50);//digitalWrite(led1, LOW);
+  // Serial.println("Thẻ tắt đèn - ĐÈN OFF");
+  // delay(50);
+    //digitalWrite(led1, HIGHT);
+  //  Serial.println("Thẻ tắt đèn - ĐÈN On");
+   // delay(50);//digitalWrite(led1, LOW);
+  // Serial.println("Thẻ tắt đèn - ĐÈN OFF");
+  // delay(50);
+    //digitalWrite(led1, HIGHT);
+  //  Serial.println("Thẻ tắt đèn - ĐÈN On");
+   // delay(50);//digitalWrite(led1, LOW);
+  // Serial.println("Thẻ tắt đèn - ĐÈN OFF");
+  // delay(50);
+    //digitalWrite(led1, HIGHT);
+  //  Serial.println("Thẻ tắt đèn - ĐÈN On");
+   // delay(50);//digitalWrite(led1, LOW);
+  // Serial.println("Thẻ tắt đèn - ĐÈN OFF");
+  // delay(50);
+    //digitalWrite(led1, HIGHT);
+  //  Serial.println("Thẻ tắt đèn - ĐÈN On");
+   // delay(50);//digitalWrite(led1, LOW);
+  // Serial.println("Thẻ tắt đèn - ĐÈN OFF");
+  // delay(50);
+    //digitalWrite(led1, HIGHT);
+  //  Serial.println("Thẻ tắt đèn - ĐÈN On");
+   // delay(50);//digitalWrite(led1, LOW);
+  // Serial.println("Thẻ tắt đèn - ĐÈN OFF");
+  // delay(50);
+    //digitalWrite(led1, HIGHT);
+  //  Serial.println("Thẻ tắt đèn - ĐÈN On");
+   // delay(50);//digitalWrite(led1, LOW);
+  // Serial.println("Thẻ tắt đèn - ĐÈN OFF");
+  // delay(50);
+    //digitalWrite(led1, HIGHT);
+  //  Serial.println("Thẻ tắt đèn - ĐÈN On");
+   // delay(50);//digitalWrite(led1, LOW);
+  // Serial.println("Thẻ tắt đèn - ĐÈN OFF");
+  // delay(50);
+    //digitalWrite(led1, HIGHT);
+  //  Serial.println("Thẻ tắt đèn - ĐÈN On");
+   // delay(50);//digitalWrite(led1, LOW);
+  // Serial.println("Thẻ tắt đèn - ĐÈN OFF");
+  // delay(50);
+    //digitalWrite(led1, HIGHT);
+  //  Serial.println("Thẻ tắt đèn - ĐÈN On");
+   // delay(50);//digitalWrite(led1, LOW);
+  // Serial.println("Thẻ tắt đèn - ĐÈN OFF");
+  // delay(50);
+    //digitalWrite(led1, HIGHT);
+  //  Serial.println("Thẻ tắt đèn - ĐÈN On");
+   // delay(50);//digitalWrite(led1, LOW);
+  // Serial.println("Thẻ tắt đèn - ĐÈN OFF");
+  // delay(50);
+    //digitalWrite(led1, HIGHT);
+  //  Serial.println("Thẻ tắt đèn - ĐÈN On");
+   // delay(50);//digitalWrite(led1, LOW);
+  // Serial.println("Thẻ tắt đèn - ĐÈN OFF");
+  // delay(50);
+    //digitalWrite(led1, HIGHT);
+  //  Serial.println("Thẻ tắt đèn - ĐÈN On");
+   // delay(50);//digitalWrite(led1, LOW);
+  // Serial.println("Thẻ tắt đèn - ĐÈN OFF");
+  // delay(50);
+    //digitalWrite(led1, HIGHT);
+  //  Serial.println("Thẻ tắt đèn - ĐÈN On");
+   // delay(50);//digitalWrite(led1, LOW);
+  // Serial.println("Thẻ tắt đèn - ĐÈN OFF");
+  // delay(50);
+    //digitalWrite(led1, HIGHT);
+  //  Serial.println("Thẻ tắt đèn - ĐÈN On");
+   // delay(50);//digitalWrite(led1, LOW);
+  // Serial.println("Thẻ tắt đèn - ĐÈN OFF");
+  // delay(50);
+    //digitalWrite(led1, HIGHT);
+  //  Serial.println("Thẻ tắt đèn - ĐÈN On");
+   // delay(50);//digitalWrite(led1, LOW);
+  // Serial.println("Thẻ tắt đèn - ĐÈN OFF");
+  // delay(50);
+    //digitalWrite(led1, HIGHT);
+  //  Serial.println("Thẻ tắt đèn - ĐÈN On");
+   // delay(50);//digitalWrite(led1, LOW);
+  // Serial.println("Thẻ tắt đèn - ĐÈN OFF");
+  // delay(50);
+    //digitalWrite(led1, HIGHT);
+  //  Serial.println("Thẻ tắt đèn - ĐÈN On");
+   // delay(50);//digitalWrite(led1, LOW);
+  // Serial.println("Thẻ tắt đèn - ĐÈN OFF");
+  // delay(50);// bt.print(mucnuoc); //send distance to MIT App value giá trị mức nước
+//bt.println(";");
+// bt.print(khach); //send distance to MIT App ON/OFF Giá trị cảm biến ánh sáng
+//bt.println(";");
+//        }
+//      {
+//            if(Incoming_value=='1BT')
+//            digitalWrite(AA,HIGH);  //Bật đèn
+//             else if(Incoming_value=='0BT')
+//             digitalWrite(AA,LOW);   //TẮT đèn
+//             if(Incoming_value==1DC')
+//            digitalWrite(BB,HIGH);  //Bật cánh quạt nước
+    //digitalWrite(led1, HIGHT);
+  //  Serial.println("Thẻ tắt đèn - ĐÈN On");
+   // delay(50);//digitalWrite(led1, LOW);
+  // Serial.println("Thẻ tắt đèn - ĐÈN OFF");
+  // delay(50);
+    //digitalWrite(led1, HIGHT);
+  //  Serial.println("Thẻ tắt đèn - ĐÈN On");
+   // delay(50);//digitalWrite(led1, LOW);
+  // Serial.println("Thẻ tắt đèn - ĐÈN OFF");
+  // delay(50);
+    //digitalWrite(led1, HIGHT);
+  //  Serial.println("Thẻ tắt đèn - ĐÈN On");
+   // delay(50);//digitalWrite(led1, LOW);
+  // Serial.println("Thẻ tắt đèn - ĐÈN OFF");
+  // delay(50);
+    //digitalWrite(led1, HIGHT);
+  //  Serial.println("Thẻ tắt đèn - ĐÈN On");
+   // delay(50);//digitalWrite(led1, LOW);
+  // Serial.println("Thẻ tắt đèn - ĐÈN OFF");
+  // delay(50);
+    //digitalWrite(led1, HIGHT);
+  //  Serial.println("Thẻ tắt đèn - ĐÈN On");
+   // delay(50);//digitalWrite(led1, LOW);
+  // Serial.println("Thẻ tắt đèn - ĐÈN OFF");
+  // delay(50);
+    //digitalWrite(led1, HIGHT);
+  //  Serial.println("Thẻ tắt đèn - ĐÈN On");
+   // delay(50);//digitalWrite(led1, LOW);
+  // Serial.println("Thẻ tắt đèn - ĐÈN OFF");
+  // delay(50);
+    //digitalWrite(led1, HIGHT);
+  //  Serial.println("Thẻ tắt đèn - ĐÈN On");
+   // delay(50);//digitalWrite(led1, LOW);
+  // Serial.println("Thẻ tắt đèn - ĐÈN OFF");
+  // delay(50);
+    //digitalWrite(led1, HIGHT);
+  //  Serial.println("Thẻ tắt đèn - ĐÈN On");
+   // delay(50);//digitalWrite(led1, LOW);
+  // Serial.println("Thẻ tắt đèn - ĐÈN OFF");
+  // delay(50);
+    //digitalWrite(led1, HIGHT);
+  //  Serial.println("Thẻ tắt đèn - ĐÈN On");
+   // delay(50);//digitalWrite(led1, LOW);
+  // Serial.println("Thẻ tắt đèn - ĐÈN OFF");
+  // delay(50);
+    //digitalWrite(led1, HIGHT);
+  //  Serial.println("Thẻ tắt đèn - ĐÈN On");
+   // delay(50);//digitalWrite(led1, LOW);
+  // Serial.println("Thẻ tắt đèn - ĐÈN OFF");
+  // delay(50);v// bt.print(mucnuoc); //send distance to MIT App value giá trị mức nước
+//bt.println(";");
+// bt.print(khach); //send distance to MIT App ON/OFF Giá trị cảm biến ánh sáng
+//bt.println(";");
+//        }
+//      {
+//            if(Incoming_value=='1BT')
+//            digitalWrite(AA,HIGH);  //Bật đèn
+//             else if(Incoming_value=='0BT')
+//             digitalWrite(AA,LOW);   //TẮT đèn
+//             if(Incoming_value==1DC')
+//            digitalWrite(BB,HIGH);  //Bật cánh quạt nước
+    //digitalWrite(led1, HIGHT);
+  //  Serial.println("Thẻ tắt đèn - ĐÈN On");
+   // delay(50);//digitalWrite(led1, LOW);
+  // Serial.println("Thẻ tắt đèn - ĐÈN OFF");
+  // delay(50);
+    //digitalWrite(led1, HIGHT);
+  //  Serial.println("Thẻ tắt đèn - ĐÈN On");
+   // delay(50);//digitalWrite(led1, LOW);
+  // Serial.println("Thẻ tắt đèn - ĐÈN OFF");
+  // delay(50);
+    //digitalWrite(led1, HIGHT);
+  //  Serial.println("Thẻ tắt đèn - ĐÈN On");
+   // delay(50);//digitalWrite(led1, LOW);
+  // Serial.println("Thẻ tắt đèn - ĐÈN OFF");
+  // delay(50);
+    //digitalWrite(led1, HIGHT);
+  //  Serial.println("Thẻ tắt đèn - ĐÈN On");
+   // delay(50);//digitalWrite(led1, LOW);
+  // Serial.println("Thẻ tắt đèn - ĐÈN OFF");
+  // delay(50);
+    //digitalWrite(led1, HIGHT);
+  //  Serial.println("Thẻ tắt đèn - ĐÈN On");
+   // delay(50);//digitalWrite(led1, LOW);
+  // Serial.println("Thẻ tắt đèn - ĐÈN OFF");
+  // delay(50);
+    //digitalWrite(led1, HIGHT);
+  //  Serial.println("Thẻ tắt đèn - ĐÈN On");
+   // delay(50);//digitalWrite(led1, LOW);
+  // Serial.println("Thẻ tắt đèn - ĐÈN OFF");
+  // delay(50);// bt.print(mucnuoc); //send distance to MIT App value giá trị mức nước
+//bt.println(";");
+// bt.print(khach); //send distance to MIT App ON/OFF Giá trị cảm biến ánh sáng
+//bt.println(";");
+//        }
+//      {
+//            if(Incoming_value=='1BT')
+//            digitalWrite(AA,HIGH);  //Bật đèn
+//             else if(Incoming_value=='0BT')
+//             digitalWrite(AA,LOW);   //TẮT đèn
+//             if(Incoming_value==1DC')
+//            digitalWrite(BB,HIGH);  //Bật cánh quạt nước
+    //digitalWrite(led1, HIGHT);
+  //  Serial.println("Thẻ tắt đèn - ĐÈN On");
+   // delay(50);//digitalWrite(led1, LOW);
+  // Serial.println("Thẻ tắt đèn - ĐÈN OFF");
+  // delay(50);
+    //digitalWrite(led1, HIGHT);
+  //  Serial.println("Thẻ tắt đèn - ĐÈN On");
+   // delay(50);//digitalWrite(led1, LOW);
+  // Serial.println("Thẻ tắt đèn - ĐÈN OFF");
+  // delay(50);
+    //digitalWrite(led1, HIGHT);
+  //  Serial.println("Thẻ tắt đèn - ĐÈN On");
+   // delay(50);//digitalWrite(led1, LOW);
+  // Serial.println("Thẻ tắt đèn - ĐÈN OFF");
+  // delay(50);
+    //digitalWrite(led1, HIGHT);
+  //  Serial.println("Thẻ tắt đèn - ĐÈN On");
+   // delay(50);//digitalWrite(led1, LOW);
+  // Serial.println("Thẻ tắt đèn - ĐÈN OFF");
+  // delay(50);
+    //digitalWrite(led1, HIGHT);
+  //  Serial.println("Thẻ tắt đèn - ĐÈN On");
+   // delay(50);//digitalWrite(led1, LOW);
+  // Serial.println("Thẻ tắt đèn - ĐÈN OFF");
+  // delay(50);
+    //digitalWrite(led1, HIGHT);
+  //  Serial.println("Thẻ tắt đèn - ĐÈN On");
+   // delay(50);//digitalWrite(led1, LOW);
+  // Serial.println("Thẻ tắt đèn - ĐÈN OFF");
+  // delay(50);
+    //digitalWrite(led1, HIGHT);
+  //  Serial.println("Thẻ tắt đèn - ĐÈN On");
+   // delay(50);//digitalWrite(led1, LOW);
+  // Serial.println("Thẻ tắt đèn - ĐÈN OFF");
+  // delay(50);// bt.print(mucnuoc); //send distance to MIT App value giá trị mức nước
+//bt.println(";");
+// bt.print(khach); //send distance to MIT App ON/OFF Giá trị cảm biến ánh sáng
+//bt.println(";");
+//        }
+//      {
+//            if(Incoming_value=='1BT')
+//            digitalWrite(AA,HIGH);  //Bật đèn
+//             else if(Incoming_value=='0BT')
+//             digitalWrite(AA,LOW);   //TẮT đèn
+//             if(Incoming_value==1DC')
+//            digitalWrite(BB,HIGH);  //Bật cánh quạt nước
+    //digitalWrite(led1, HIGHT);
+  //  Serial.println("Thẻ tắt đèn - ĐÈN On");
+   // delay(50);//digitalWrite(led1, LOW);
+  // Serial.println("Thẻ tắt đèn - ĐÈN OFF");
+  // delay(50);
+    //digitalWrite(led1, HIGHT);
+  //  Serial.println("Thẻ tắt đèn - ĐÈN On");
+   // delay(50);//digitalWrite(led1, LOW);
+  // Serial.println("Thẻ tắt đèn - ĐÈN OFF");
+  // delay(50);
+    //digitalWrite(led1, HIGHT);
+  //  Serial.println("Thẻ tắt đèn - ĐÈN On");
+   // delay(50);//digitalWrite(led1, LOW);
+  // Serial.println("Thẻ tắt đèn - ĐÈN OFF");
+  // delay(50);
+    //digitalWrite(led1, HIGHT);
+  //  Serial.println("Thẻ tắt đèn - ĐÈN On");
+   // delay(50);//digitalWrite(led1, LOW);
+  // Serial.println("Thẻ tắt đèn - ĐÈN OFF");
+  // delay(50);// bt.print(mucnuoc); //send distance to MIT App value giá trị mức nước
+//bt.println(";");
+// bt.print(khach); //send distance to MIT App ON/OFF Giá trị cảm biến ánh sáng
+//bt.println(";");
+//        }
+//      {
+//            if(Incoming_value=='1BT')
+//            digitalWrite(AA,HIGH);  //Bật đèn
+//             else if(Incoming_value=='0BT')
+//             digitalWrite(AA,LOW);   //TẮT đèn
+//             if(Incoming_value==1DC')
+//            digitalWrite(BB,HIGH);  //Bật cánh quạt nước
+    //digitalWrite(led1, HIGHT);
+  //  Serial.println("Thẻ tắt đèn - ĐÈN On");
+   // delay(50);//digitalWrite(led1, LOW);
+  // Serial.println("Thẻ tắt đèn - ĐÈN OFF");
+  // delay(50);
+    //digitalWrite(led1, HIGHT);
+  //  Serial.println("Thẻ tắt đèn - ĐÈN On");
+   // delay(50);//digitalWrite(led1, LOW);
+  // Serial.println("Thẻ tắt đèn - ĐÈN OFF");
+  // delay(50);// bt.print(mucnuoc); //send distance to MIT App value giá trị mức nước
+//bt.println(";");
+// bt.print(khach); //send distance to MIT App ON/OFF Giá trị cảm biến ánh sáng
+//bt.println(";");
+//        }
+//      {
+//            if(Incoming_value=='1BT')
+//            digitalWrite(AA,HIGH);  //Bật đèn
+//             else if(Incoming_value=='0BT')
+//             digitalWrite(AA,LOW);   //TẮT đèn
+//             if(Incoming_value==1DC')
+//            digitalWrite(BB,HIGH);  //Bật cánh quạt nước
+    //digitalWrite(led1, HIGHT);
+  //  Serial.println("Thẻ tắt đèn - ĐÈN On");
+   // delay(50);//digitalWrite(led1, LOW);
+  // Serial.println("Thẻ tắt đèn - ĐÈN OFF");
+  // delay(50);
+    //digitalWrite(led1, HIGHT);
+  //  Serial.println("Thẻ tắt đèn - ĐÈN On");
+   // delay(50);//digitalWrite(led1, LOW);
+  // Serial.println("Thẻ tắt đèn - ĐÈN OFF");
+  // delay(50);
+    //             else if(Incoming_value=='0BT')
+//             digitalWrite(BB,LOW);    //Tắt cánh quạt nước
+//             if(Incoming_value=1BN')
+//            digitalWrite(CC,HIGH);   //Bật bơm nước
+//             else if(Incoming_value=='0BN')
+//             digitalWrite(CC,LOW);    //Tắt bơm nước
+//             if(Incoming_value=1NH')
+//            digitalWrite(DD,HIGH);    //Chạy step +
+//             else if(Incoming_value==0NH')
+//             digitalWrite(DD,LOW);     //Chạy Step -
+    //digitalWrite(led1, HIGHT);
+  //  Serial.println("Thẻ tắt đèn - ĐÈN On");
+   // delay(50);//digitalWrite(led1, LOW);
+  // Serial.println("Thẻ tắt đèn - ĐÈN OFF");
+  // delay(50);
+    //digitalWrite(led1, HIGHT);
+  //  Serial.println("Thẻ tắt đèn - ĐÈN On");
+   // delay(50);//digitalWrite(led1, LOW);
+  // Serial.println("Thẻ tắt đèn - ĐÈN OFF");
+  // delay(50);
+    //digitalWrite(led1, HIGHT);
+  //  Serial.println("Thẻ tắt đèn - ĐÈN On");
+   // delay(50);//digitalWrite(led1, LOW);
+  // Serial.println("Thẻ tắt đèn - ĐÈN OFF");
+  // delay(50);
+    //digitalWrite(led1, HIGHT);
+  //  Serial.println("Thẻ tắt đèn - ĐÈN On");
+   // delay(50);
   }
 
   else
@@ -359,6 +1094,30 @@ void dennhay()
   else digitalWrite(den, LOW );
   time1 = millis();
  }
+  // bt.print(mucnuoc); //send distance to MIT App value giá trị mức nước
+//bt.println(";");
+// bt.print(khach); //send distance to MIT App ON/OFF Giá trị cảm biến ánh sáng
+//bt.println(";");
+//        }
+//      {
+//            if(Incoming_value=='1BT')
+//            digitalWrite(AA,HIGH);  //Bật đèn
+//             else if(Incoming_value=='0BT')
+//             digitalWrite(AA,LOW);   //TẮT đèn
+//             if(Incoming_value==1DC')
+//            digitalWrite(BB,HIGH);  //Bật cánh quạt nước
+ //             else if(Incoming_value=='0BT')
+//             digitalWrite(BB,LOW);    //Tắt cánh quạt nước
+//             if(Incoming_value=1BN')
+//            digitalWrite(CC,HIGH);   //Bật bơm nước
+//             else if(Incoming_value=='0BN')
+//             digitalWrite(CC,LOW);    //Tắt bơm nước
+//             if(Incoming_value=1NH')
+//            digitalWrite(DD,HIGH);    //Chạy step +
+//             else if(Incoming_value==0NH')
+//             digitalWrite(DD,LOW);     //Chạy Step -
+ 
+//        }
 } 
 
 void motor_1_Dung() 
